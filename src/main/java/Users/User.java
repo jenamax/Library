@@ -1,4 +1,8 @@
-package main;
+package Users;
+
+import Documents.Document;
+
+import java.util.ArrayList;
 
 /**
  * Created by evgeniy on 21.01.18.
@@ -16,7 +20,9 @@ public class User {
         this.email = email;
     }
 
-    void search(){  //TODO: add parameters of searching and make method return list of documents
+    ArrayList<Document> search(){  //TODO: add parameters of searching and make method return list of documents
         //TODO: search by title, by author, by title and author
+
+        return null;
     }
 }

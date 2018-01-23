@@ -1,4 +1,4 @@
-package main;
+package Documents;
 
 import java.util.Hashtable;
 

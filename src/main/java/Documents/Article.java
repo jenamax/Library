@@ -1,4 +1,4 @@
-package main;
+package Documents;
 
 public class Article extends Document {
 
