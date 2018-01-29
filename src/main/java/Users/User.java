@@ -20,9 +20,18 @@ public class User {
         this.email = email;
     }
 
-    ArrayList<Document> search(){  //TODO: add parameters of searching and make method return list of documents
-        //TODO: search by title, by author, by title and author
-
-        return null;
+    ArrayList<Documents.Document> search(ArrayList<Documents.Document> docs, String searchStr){
+        ArrayList<Documents.Document> result = new ArrayList<>();
+        boolean containAuthor;
+        for (Document doc : docs) {
+            containAuthor = false;
+            for (String author : doc.getAuthors()){
+                if (searchStr.equals(author))
+                    containAuthor = true;
+            }
+            if (doc.getTitle().equals(searchStr) || containAuthor)
+                result.add(doc);
+        }
+        return result;
     }
 }
