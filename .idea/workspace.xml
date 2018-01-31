@@ -4,7 +4,6 @@
     <list default="true" id="5b5be637-81c0-4edf-b804-52ed91299bb9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/templates/first.html" afterPath="$PROJECT_DIR$/templates/first.html" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +25,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="0">
               <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding />
             </state>
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -82,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="first.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/first.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
+            <state relative-caret-position="60">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -540,7 +539,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516478396189</updated>
-      <workItem from="1517393341590" duration="435000" />
+      <workItem from="1517393341590" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1516528394447</created>
@@ -598,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517393579895</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1 commit">
+      <created>1517393810970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517393810970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435000" />
+    <option name="totallyTimeSpent" value="2170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1028" extended-state="0" />
@@ -977,7 +983,7 @@
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_121/src.zip!/java/util/LinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="0">
           <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
@@ -1054,18 +1060,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/first.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="225" column="7" lean-forward="true" selection-start-line="225" selection-start-column="7" selection-end-line="225" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
