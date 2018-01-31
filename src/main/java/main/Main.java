@@ -21,12 +21,12 @@ public class Main {
         Server server = new Server(8080);
         server.setHandler(context);
 
-        DBtest db = new DBtest();
-        db.printInfo();
+       // DBtest db = new DBtest();
+        //db.printInfo();
 
 
         //System.out.println(db.isHere("admin"));
-        System.out.println("AUTH: "+ db.authControl("admin", "admin") );
+//        System.out.println("AUTH: "+ db.authControl("admin", "admin") );
 
 
         server.start();
