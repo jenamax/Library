@@ -19,10 +19,12 @@ public class Document {
         this.keys = keys;
         availability = true;
     }
+
+    public void setAvailability(boolean a){this.availability = a;}
+
     public Boolean available(){
         return availability;
     }
-    
     public String getTitle(){return title;}
     public int getPrice(){return price;}
     public ArrayList<String> getAuthors(){return authors;}
