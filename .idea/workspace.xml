@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5be637-81c0-4edf-b804-52ed91299bb9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DB/Executor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DB/ResultHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Documents/Article.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Documents/Books.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Documents/Document.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Users/Librarian.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Users/Patron.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Users/User.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DB/DBServices.java" afterPath="$PROJECT_DIR$/src/main/java/DB/DBServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DB/DBtest.java" afterPath="$PROJECT_DIR$/src/main/java/DB/DBtest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +56,14 @@
       <file leaf-file-name="DBtest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DB/DBtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="107">
               <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getConnection#0;class#DBtest#0" expanded="false" />
+                <element signature="class#1042:1563" expanded="false" />
+                <element signature="method#handle#0;class#1042:1563" expanded="false" />
+                <element signature="method#handle#0;class#2124:2655" expanded="false" />
                 <element signature="method#printInfo#0;class#DBtest#0" expanded="false" />
               </folding>
             </state>
@@ -169,7 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,8 +216,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -563,14 +577,7 @@
       <option name="project" value="LOCAL" />
       <updated>1516536478775</updated>
     </task>
-    <task id="LOCAL-00008" summary="Suka Ebaniy workspace&#10;">
-      <created>1517402627610</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1517402627610</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -591,7 +598,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26655808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -652,9 +659,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="test" />
     <MESSAGE value="Yarikov Test" />
-    <MESSAGE value="&#10;" />
-    <MESSAGE value="Suka Ebaniy workspace&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suka Ebaniy workspace&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yarikov Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -665,22 +670,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/DB/ResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AuthControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -704,6 +693,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getConnection#0;class#DBtest#0" expanded="false" />
+            <element signature="class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#2124:2655" expanded="false" />
             <element signature="method#printInfo#0;class#DBtest#0" expanded="false" />
           </folding>
         </state>
@@ -766,6 +758,9 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getConnection#0;class#DBtest#0" expanded="false" />
+            <element signature="class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#2124:2655" expanded="false" />
             <element signature="method#printInfo#0;class#DBtest#0" expanded="false" />
           </folding>
         </state>
@@ -991,11 +986,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DB/DBtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
+        <state relative-caret-position="107">
           <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getConnection#0;class#DBtest#0" expanded="false" />
+            <element signature="class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#1042:1563" expanded="false" />
+            <element signature="method#handle#0;class#2124:2655" expanded="false" />
             <element signature="method#printInfo#0;class#DBtest#0" expanded="false" />
           </folding>
         </state>
