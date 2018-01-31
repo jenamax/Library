@@ -563,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516536478775</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Suka Ebaniy workspace&#10;">
+      <created>1517402627610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517402627610</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +652,9 @@
     <MESSAGE value="1" />
     <MESSAGE value="test" />
     <MESSAGE value="Yarikov Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yarikov Test" />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="Suka Ebaniy workspace&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suka Ebaniy workspace&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
