@@ -16,6 +16,8 @@ public class Main {
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.addServlet(new ServletHolder(allRequestsServlet), "/*");
 
+
+
         Server server = new Server(8080);
         server.setHandler(context);
 
@@ -23,6 +25,8 @@ public class Main {
         db.printInfo();
 
 
+        //System.out.println(db.isHere("admin"));
+        System.out.println("AUTH: "+ db.authControl("admin", "admin") );
 
 
         server.start();
