@@ -90,7 +90,7 @@ public class DBtest {
     }
 
 
-    public void printInfo(){
+   public void printInfo(){
 
         try {
             System.out.println("Name: "+ connection.getMetaData().getDatabaseProductName());
@@ -100,5 +100,6 @@ public class DBtest {
             e.printStackTrace();
         }
     }
+
 
 }
