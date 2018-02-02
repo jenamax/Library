@@ -10,8 +10,10 @@ import java.util.ArrayList;
 public class Patron extends User {
     String type;
     ArrayList <Document> documents;
-    public Patron(String name, String phoneNumber, String email, int id, String type) {
-        super(name, phoneNumber, email, id);
+
+    //public Patron(String name, String phoneNumber, String email, int id, String type) {
+    public Patron() {
+        //super(name, phoneNumber, email, id);
         documents = new ArrayList<>();
         this.type = type;
     }

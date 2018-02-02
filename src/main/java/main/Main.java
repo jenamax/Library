@@ -25,7 +25,8 @@ public class Main {
         db.printInfo();
 
 
-        System.out.println(db.isHere("admin"));
+        //System.out.println(db.isHere("admin"));
+
         System.out.println("AUTH: "+ db.authControl("admin", "admin") );
 
 
