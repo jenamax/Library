@@ -105,8 +105,8 @@ public class DBtest {
                 System.out.println(log+"ITS LIBRARIAN");
             }else user = new Patron();
 
-            user.id=Integer.parseInt(profile.get(0));
-            user.name=profile.get(4)+" "+profile.get(3);
+            user.id = Integer.parseInt(profile.get(0));
+            user.name = profile.get(4) + " " + profile.get(3);
             user.address = profile.get(6);
             user.phone_number = profile.get(7);
 

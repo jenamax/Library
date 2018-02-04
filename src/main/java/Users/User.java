@@ -17,24 +17,22 @@ public class User {
 
     //public User(String name, String phoneNumber, String email, int id){
     public User(){
-        this.name = name;
-        this.id = id;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
+
     }
 
-    ArrayList<Documents.Document> search(ArrayList<Documents.Document> docs, String searchStr){
-        ArrayList<Documents.Document> result = new ArrayList<>();
-        boolean containAuthor;
-        for (Document doc : docs) {
-            containAuthor = false;
-            for (String author : doc.getAuthors()){
-                if (searchStr.equals(author))
-                    containAuthor = true;
-            }
-            if (doc.getTitle().equals(searchStr) || containAuthor)
-                result.add(doc);
-        }
-        return result;
-    }
+//    ArrayList<Documents.Document> search(ArrayList<Documents.Document> docs, String searchStr){
+//        //get list of documents
+//        ArrayList<Documents.Document> result = new ArrayList<>();
+//        boolean containAuthor;
+//        for (Document doc : docs) {
+//            containAuthor = false;
+//            for (String author : doc.getAuthors()) {
+//                if (searchStr.equals(author))
+//                    containAuthor = true;
+//            }
+//            if (doc.getTitle().equals(searchStr) || containAuthor)
+//                result.add(doc);
+//        }
+//        return result;
+//    }
 }

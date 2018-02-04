@@ -10,5 +10,5 @@ import java.util.ArrayList;
  */
 public interface BookingSystem {
     ArrayList<Document> docs = null;
-    ArrayList<User> users = null;
+    ArrayList<Documents.Document> search();
 }
