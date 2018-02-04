@@ -9,7 +9,7 @@ public class Article extends Document {
     private String date;
 
     public Article(String title, int price, ArrayList<String> author, ArrayList<String> keys, String editor, String journal, String date) {
-        super(title, price, author, keys);
+        //super(title, price, author, keys);
         this.editor = editor;
         this.journal = journal;
         this.date = date;

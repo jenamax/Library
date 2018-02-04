@@ -8,7 +8,7 @@ public class Books extends Document{
     private int year;
 
     public Books(String title, int price, ArrayList<String> author, ArrayList<String> keys, String press, int year) {
-        super(title, price, author,keys);
+        //super(title, price, author,keys);
         this.press = press;
         this.year = year;
     }

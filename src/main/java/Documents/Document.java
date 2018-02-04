@@ -11,13 +11,23 @@ public class Document {
     private ArrayList<String> authors;
     private ArrayList<String> keys;
 
-    public Document( String title, int price, ArrayList<String> authors, ArrayList<String> keys) {
-        id = title.hashCode();
+    //public Document( String title, int price, ArrayList<String> authors, ArrayList<String> keys) {
+    public Document(){
+        //id = title.hashCode();
         this.title = title;
         this.price = price;
         this.authors = authors;
         this.keys = keys;
         availability = true;
+    }
+
+    public void setDoc(int id, String title, int price, String authors, String keys){
+        this.id=id;
+        this.title= title;
+        this.price=price;
+
+        this.authors.add(authors);
+        this.keys.add(keys);
     }
 
     public void setAvailability(boolean a){this.availability = a;}
