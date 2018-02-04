@@ -8,12 +8,15 @@ import java.util.ArrayList;
  * Created by evgeniy on 21.01.18.
  */
 public class User {
-    String name;
-    int id;
-    String phoneNumber;
-    String email;
+    public String name;
+    public int id;
+    public String phoneNumber;
+    public String email;
+    public String address;
+    public String phone_number;
 
-    public User(String name, String phoneNumber, String email, int id){
+    //public User(String name, String phoneNumber, String email, int id){
+    public User(){
         this.name = name;
         this.id = id;
         this.phoneNumber = phoneNumber;

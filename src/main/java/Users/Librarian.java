@@ -9,8 +9,9 @@ import java.util.ArrayList;
  * Created by evgeniy on 21.01.18.
  */
 public class Librarian extends User {
-    public Librarian(String name, String phoneNumber, String email, int id) {
-        super(name, phoneNumber, email, id);
+    //public Librarian(String name, String phoneNumber, String email, int id) {
+    public Librarian() {
+        //super(name, phoneNumber, email, id);
     }
     void add(){
         //TODO: Input title, authors, price

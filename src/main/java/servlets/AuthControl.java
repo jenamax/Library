@@ -14,7 +14,7 @@ import java.util.Map;
 import java.sql.*;
 
 public class AuthControl {
-    static String DB_URL = "jdbc:mysql://localhost:3306/innolibrary";
+    static String DB_URL = "jdbc:mysql://192.168.137.1:3306/innolibrary";
     static String USER = "root";
     static String PASS="root";
 
