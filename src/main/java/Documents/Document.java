@@ -21,6 +21,7 @@ public class Document {
     }
 
     public void setAvailability(boolean a){this.availability = a;}
+    public void setPrice(int newPrice){this.price = newPrice;}
 
     public Boolean available(){
         return availability;

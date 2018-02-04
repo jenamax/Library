@@ -1,5 +1,10 @@
 package Users;
 
+import Booking.BookingSystem;
+import Documents.Document;
+
+import java.util.ArrayList;
+
 /**
  * Created by evgeniy on 21.01.18.
  */
@@ -7,7 +12,6 @@ public class Librarian extends User {
     public Librarian(String name, String phoneNumber, String email, int id) {
         super(name, phoneNumber, email, id);
     }
-
     void add(){
         //TODO: Input title, authors, price
 
@@ -20,10 +24,10 @@ public class Librarian extends User {
     }
 
     void modify(){
-        //Open editor window for selected item
+
     }
 
-    void remove(){
-        //Remove selected item
+    void remove(Document doc, ArrayList<Document> documents){
+        documents.remove(doc);
     }
 }
