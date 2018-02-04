@@ -1,14 +1,17 @@
 package DB;
 
 
+import Documents.Document;
 import Users.Librarian;
 import Users.Patron;
 import Users.User;
 
+import javax.print.Doc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -74,7 +77,6 @@ public class DBtest {
 
 
         try {
-
             List<String> profile = executor.execQuery(sql, new ResultHandler<List>() {
                 public List<String> handle(ResultSet result) throws SQLException {
                     List<String> resultSet = new LinkedList<>();
@@ -128,6 +130,61 @@ public class DBtest {
         }catch (SQLException e){
             e.printStackTrace();
         }
+    }
+
+    public List<Document> documents(){
+        List<Document> docs = new ArrayList<>();
+        String log = "[]";
+        Executor executor = new Executor(connection);
+
+        String sql_books="SELECT id, title, author, publisher, date, description, tags, available, price FROM books";
+
+        try{
+                List<Document> books = executor.execQuery(sql_books, new ResultHandler<List>() {
+                    public List<Document> handle(ResultSet result) throws SQLException {
+                        Document doc;
+                        List<Document> books = new ArrayList<Document>();
+
+                        while (!result.isLast()) {
+                            System.out.print("Зашел в таблицу");
+                            doc = new Document();
+                            result.next();
+                            doc.setDoc(Integer.parseInt(result.getString("id")),
+                                    result.getString("title"),
+                                    Integer.parseInt(result.getString("price")),
+                                    result.getString("author"),
+                                    result.getString("tags")  );
+
+                            if(result.getString("available").equals("1")){
+                                doc.setAvailability(true);
+                            }else{doc.setAvailability(false);}
+                            books.add(doc);
+                            System.out.println("-> Закинул");
+
+                            /*
+                            resultSet.add(result.getString("title"));   //1
+                            resultSet.add(result.getString("author"));   //2
+                            resultSet.add(result.getString("publisher"));    //3
+                            resultSet.add(result.getString("date"));       //4
+                            resultSet.add(result.getString("available"));  //5
+                            resultSet.add(result.getString("description"));    //6
+                            resultSet.add(result.getString("tags")); //7
+                            resultSet.add(result.getString("price")); //8
+                            */
+
+                        }
+                        return books;
+                    }
+                });
+                docs.addAll(books);
+
+        }catch (SQLException e){
+            System.out.println("[ERROR]: "+" SQL ");
+            return null;
+        }
+
+
+       return docs;
     }
 
 }
