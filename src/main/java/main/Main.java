@@ -32,10 +32,10 @@ public class Main {
         //System.out.println(db.isHere("admin"));
 
        // System.out.println("AUTH: "+ db.authControl("admin", "admin") );
-        System.out.println("DOCS");
+   /*     System.out.println("DOCS");
         List docs = db.documents();
         for (int i=0; i<docs.size(); i++) System.out.println(docs.get(i));
-
+*/
 
 
         server.start();
