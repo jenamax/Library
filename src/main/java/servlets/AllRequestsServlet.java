@@ -17,7 +17,7 @@ public class AllRequestsServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response) throws ServletException, IOException {
 
-        Map<String, Object> pageVariables = createPageVariablesMap(request);
+       Map<String, Object> pageVariables = createPageVariablesMap(request);
         pageVariables.put("login", "");
 
         response.getWriter().println(PageGenerator.instance().getPage("page.html", pageVariables));
@@ -44,30 +44,35 @@ public class AllRequestsServlet extends HttpServlet {
         }
         pageVariables.put("login", login == null ? "" : login);
         pageVariables.put("password", password == null ? "" : password);
+        DBtest dbTest = new DBtest();
+
+            /*
+            * вызов переменных из бд
+            * */
+        User userr;
+
+        userr = dbTest.authControl(login, password);
+
+
+        // Object phoneUser = userr.phoneNumber;
+        //pageVariables.put("id", phoneUser);
+
+        pageVariables.put("id", userr.id);
+        pageVariables.put("name", userr.name);
+        pageVariables.put("surname", userr.surname);
+        pageVariables.put("address", userr.address);
+        pageVariables.put("phone", userr.phoneNumber);
         response.getWriter().println(PageGenerator.instance().getPage("user_card.html", pageVariables));
 
 
     }
 
     private static Map<String, Object> createPageVariablesMap(HttpServletRequest request) {
+        Map<String, Object> pageVariables = new HashMap<>();
         /**
          * вызов переменных из бд
          */
-        DBtest dbTest = new DBtest();
-        String login = request.getParameter("login");
-        String password = request.getParameter("password");
 
-            /*
-            * вызов переменных из бд
-            * */
-        User userr;
-        userr =dbTest.authControl(login, password);
-     //   if (dbTest.authControl(login, password) != null) {
-        userr = dbTest.authControl(login, password);
-        Map<String, Object> pageVariables = new HashMap<>();
-
-       // Object phoneUser = userr.phoneNumber;
-        //pageVariables.put("id", phoneUser);
 
         pageVariables.put("URL", request.getRequestURL().toString());
         pageVariables.put("pathInfo", request.getPathInfo());
