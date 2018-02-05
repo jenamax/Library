@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5be637-81c0-4edf-b804-52ed91299bb9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_0_M0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_0_M0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/GROUP.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DB/DBtest.java" afterPath="$PROJECT_DIR$/src/main/java/DB/DBtest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Users/User.java" afterPath="$PROJECT_DIR$/src/main/java/Users/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/servlets/AllRequestsServlet.java" afterPath="$PROJECT_DIR$/src/main/java/servlets/AllRequestsServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user_card.html" afterPath="$PROJECT_DIR$/templates/user_card.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -90,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllRequestsServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllRequestsServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AllRequestsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,13 +107,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_card.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_card.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/user_card.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="6893" column="8" lean-forward="true" selection-start-line="6893" selection-start-column="8" selection-end-line="6893" selection-end-column="8" />
+            <state relative-caret-position="141">
+              <caret line="9453" column="0" lean-forward="true" selection-start-line="9453" selection-start-column="0" selection-end-line="9453" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#186066#186073#0" expanded="true" />
+                <element signature="e#186712#186719#0" expanded="true" />
+                <element signature="e#188060#188067#0" expanded="true" />
+                <element signature="e#189514#189521#0" expanded="true" />
+                <element signature="e#190940#190947#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Documents/Article.java" />
         <option value="$PROJECT_DIR$/src/main/java/Documents/Document.java" />
         <option value="$PROJECT_DIR$/src/main/java/Users/User.java" />
-        <option value="$PROJECT_DIR$/templates/user_card.html" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/DB/DBtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/AllRequestsServlet.java" />
+        <option value="$PROJECT_DIR$/templates/user_card.html" />
       </list>
     </option>
   </component>
@@ -333,11 +332,12 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\LibraryD\templates" />
+      <recent name="C:\Users\123\IdeaProjects\Library\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\simon\Documents\Materals\Projects &amp; etc\Library\Library1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\123\IdeaProjects\Library\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -718,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517740965952</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="BDTest small changes">
+      <created>1517815891987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517815891987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1119,16 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="6893" column="8" lean-forward="true" selection-start-line="6893" selection-start-column="8" selection-end-line="6893" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1139,10 +1136,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlets/AllRequestsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9453" column="0" lean-forward="true" selection-start-line="9453" selection-start-column="0" selection-end-line="9453" selection-end-column="0" />
+          <folding>
+            <element signature="e#186066#186073#0" expanded="true" />
+            <element signature="e#186712#186719#0" expanded="true" />
+            <element signature="e#188060#188067#0" expanded="true" />
+            <element signature="e#189514#189521#0" expanded="true" />
+            <element signature="e#190940#190947#0" expanded="true" />
           </folding>
         </state>
       </provider>
