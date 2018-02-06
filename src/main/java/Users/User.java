@@ -8,6 +8,7 @@ import java.util.ArrayList;
  * Created by evgeniy on 21.01.18.
  */
 public class User {
+    public String surname;
     public String name;
     public int id;
     public String phoneNumber;

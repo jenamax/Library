@@ -73,7 +73,7 @@ public class DBtest {
         String log = "[AuthControl]: ";
         Executor executor = new Executor(connection);
         String sql = "SELECT id, username, password, surname, name, user_type, address, phone_number" +
-                ", user_type from users where username='"+login+"'"; //SQL Query
+                ", user_type FROM users where username='"+login+"'"; //SQL Query
 
 
         try {
@@ -106,9 +106,10 @@ public class DBtest {
             }else user = new Patron();
 
             user.id = Integer.parseInt(profile.get(0));
-            user.name = profile.get(4) + " " + profile.get(3);
+            user.name = profile.get(4);
+            user.surname = profile.get(3);
             user.address = profile.get(6);
-            user.phone_number = profile.get(7);
+            user.phoneNumber = profile.get(7);
 
 
 
@@ -117,6 +118,7 @@ public class DBtest {
                 return user;
             }else return null;
         }catch (SQLException e){
+            System.out.println("[AUTH_ERROR]");
             return null;
         }
     }
