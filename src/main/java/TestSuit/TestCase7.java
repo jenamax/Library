@@ -10,14 +10,14 @@ import Users.Patron;
 public class TestCase7 {
     public static void main(String[] args){
         Librarian librarian = new Librarian();
-        librarian.name = "librarian";
+        librarian.setName("librarian");
 
 
         Patron p1 = new Patron();
-        p1.name = "p1";
+        p1.setName("p1");
 
         Patron p2 = new Patron();
-        p2.name = "p2";
+        p2.setName("p2");
 
         librarian.addPatron(p1);
         librarian.addPatron(p2);
