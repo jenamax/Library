@@ -10,19 +10,19 @@ import java.util.ArrayList;
  */
 public class Librarian extends User {
 
-    ArrayList<Patron> patrons;
+    public ArrayList<Patron> patrons;
 
-    void addPatron(String name, String phoneNumber, String email, String type){
-        Patron newPatron = new Patron();
-        newPatron.name = name;
-        newPatron.phone_number = phoneNumber;
-        newPatron.email = email;
-        newPatron.id = (name + phoneNumber).hashCode();
-        newPatron.type = type;
+    public void addPatron(Patron newPatron){//String name, String phoneNumber, String email, String type){
+//        Patron newPatron = new Patron();
+//        newPatron.name = name;
+//        newPatron.phone_number = phoneNumber;
+//        newPatron.email = email;
+//        newPatron.id = (name + phoneNumber).hashCode();
+//        newPatron.type = type;
         patrons.add(newPatron);
     }
 
-    void removePatron(String name, String phoneNumber){
+    public void removePatron(String name, String phoneNumber){
         int id = (name + phoneNumber).hashCode();
         for (Patron patron : patrons){
             if (patron.id == id)
@@ -33,6 +33,7 @@ public class Librarian extends User {
     //public Librarian(String name, String phoneNumber, String email, int id) {
     public Librarian() {
         //super(name, phoneNumber, email, id);
+        patrons = new ArrayList<>();
     }
     void add(){
         //TODO: Input title, authors, price
