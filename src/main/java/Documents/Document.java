@@ -5,11 +5,12 @@ import java.util.Hashtable;
 
 public class Document {
     private int id;
-    private Boolean availability;
+    private int copies;
     private String title;
     private int price;
     private ArrayList<String> authors;
     private ArrayList<String> keys;
+    public int daysRemained;
 
     //public Document( String title, int price, ArrayList<String> authors, ArrayList<String> keys) {
     public Document(){
@@ -18,7 +19,8 @@ public class Document {
         this.price = price;
         this.authors = authors;
         this.keys = keys;
-        availability = true;
+        authors = new ArrayList<>();
+        keys = new ArrayList<>();
     }
 
     public void setDoc(int id, String title, int price, String authors, String keys){
@@ -30,11 +32,11 @@ public class Document {
         this.keys.add(keys);
     }
 
-    public void setAvailability(boolean a){this.availability = a;}
+    public void setCopies(int n){this.copies = n;}
     public void setPrice(int newPrice){this.price = newPrice;}
 
-    public Boolean available(){
-        return availability;
+    public int copiesNumber(){
+        return copies;
     }
     public String getTitle(){return title;}
     public int getPrice(){return price;}
