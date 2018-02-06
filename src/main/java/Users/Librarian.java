@@ -11,6 +11,7 @@ import java.util.ArrayList;
 public class Librarian extends User {
 
     public ArrayList<Patron> patrons;
+    public ArrayList<Document> documents;
 
     public void addPatron(Patron newPatron){//String name, String phoneNumber, String email, String type){
 //        Patron newPatron = new Patron();
@@ -34,23 +35,17 @@ public class Librarian extends User {
     public Librarian() {
         //super(name, phoneNumber, email, id);
         patrons = new ArrayList<>();
+        documents = new ArrayList<>();
     }
-    void add(){
-        //TODO: Input title, authors, price
-
-        // TODO: choosing type
-
-        //TODO: for books: choose press, publisher and year; for articles: choose date, editor and journal
-
-
-        //TODO: add creation of document
+    public void add(Document doc){
+        documents.add(doc);
     }
 
-    void modify(){
+    public void modify(){
 
     }
 
-    void remove(Document doc, ArrayList<Document> documents){
+    public void remove(Document doc){
         //get list of documents
         documents.remove(doc);
         //rewrite list of documents
