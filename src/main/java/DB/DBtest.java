@@ -30,9 +30,9 @@ public class DBtest {
 
     private Connection getConnection(){
         try{
-            String DB_URL = "jdbc:mysql://localhost:3306/innolibrary";
-            String USER = "root";
-            String PASS = "root";
+            String DB_URL = "jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f76d6fb9e659782";
+            String USER = "baff532465d8d9";
+            String PASS = "ffa9cd9f";
 
             return DriverManager.getConnection(DB_URL, USER, PASS);
         }catch (SQLException sqlerr){
