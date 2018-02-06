@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AllRequestsServlet extends HttpServlet {
+
     DBtest dbTest = new DBtest();
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response) throws ServletException, IOException {

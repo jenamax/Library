@@ -30,9 +30,9 @@ public class DBtest {
 
     private Connection getConnection(){
         try{
-            String DB_URL = "jdbc:mysql://localhost:3306/innolibrary";
-            String USER = "root";
-            String PASS = "root";
+            String DB_URL = "jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f76d6fb9e659782";
+            String USER = "baff532465d8d9";
+            String PASS = "ffa9cd9f";
 
             return DriverManager.getConnection(DB_URL, USER, PASS);
         }catch (SQLException sqlerr){
@@ -142,7 +142,7 @@ public class DBtest {
         String sql_books="SELECT id, title, author, publisher, date, description, tags, available, price FROM books";
 
         try{
-                List<Document> books = executor.execQuery(sql_books, new ResultHandler<List>() {
+                List books = executor.execQuery(sql_books, new ResultHandler<List>() {
                     public List<Document> handle(ResultSet result) throws SQLException {
                         Document doc;
                         List<Document> books = new ArrayList<Document>();
@@ -157,9 +157,9 @@ public class DBtest {
                                     result.getString("author"),
                                     result.getString("tags")  );
 
-                            if(result.getString("available").equals("1")){
-                                doc.setAvailability(true);
-                            }else{doc.setAvailability(false);}
+//                            if(result.getString("available").equals("1")){
+//                                doc.setAvailability(true);
+//                            }else{doc.setAvailability(false);}
                             books.add(doc);
                             System.out.println("-> Закинул");
 
