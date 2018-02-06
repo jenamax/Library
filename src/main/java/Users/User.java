@@ -16,6 +16,10 @@ public class User {
     public String address;
     public String phone_number;
 
+    public void setName(String n){
+        name = n;
+    }
+
     //public User(String name, String phoneNumber, String email, int id){
     public User(){
 
