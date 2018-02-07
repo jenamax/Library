@@ -55,7 +55,7 @@ public class Patron extends User {
                     doc.daysRemained = 21;
                 }
             }
-            System.out.println("The book " + doc.getTitle() + " are checked out by " + name);
+            System.out.println("The book \"" + doc.getTitle() + "\" are checked out by " + name);
         }
 
         else{
