@@ -17,6 +17,8 @@ public class TestCase8 {
         Patron s = new Patron();
         s.setType("student");
         s.setName("STUDENT");
+        librarian.addPatron(s);
+        librarian.addPatron(f);
 
         Book b = new Book();
         b.setDoc(5, "How to take A in ITP", 1488, "A.Naumchev", "");
