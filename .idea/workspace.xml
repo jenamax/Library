@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5be637-81c0-4edf-b804-52ed91299bb9" name="Default" comment="Test cases 1 and 3 and modifications for them">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="5b5be637-81c0-4edf-b804-52ed91299bb9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestSuit/TestCase7.java" afterPath="$PROJECT_DIR$/src/main/java/TestSuit/TestCase7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestSuit/TestCase8.java" afterPath="$PROJECT_DIR$/src/main/java/TestSuit/TestCase8.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -572,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517752270141</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DA NU VSE V ZHOPU">
+      <created>1518002343721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1518002343721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -643,7 +647,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Documents and Users separated to different directories" />
     <MESSAGE value="setters and getters added" />
-    <option name="LAST_COMMIT_MESSAGE" value="setters and getters added" />
+    <MESSAGE value="DA NU VSE V ZHOPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="DA NU VSE V ZHOPU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
