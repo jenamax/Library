@@ -21,6 +21,7 @@ public class TestCase8 {
         Book b = new Book();
         b.setDoc(5, "How to take A in ITP", 1488, "A.Naumchev", "");
         b.setCopies(1);
+
         s.checkout(b);
         System.out.println(s.documents.get(0).daysRemained+ " days");
     }
