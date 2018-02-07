@@ -30,11 +30,15 @@ public class Patron extends User {
     public void checkout(Document doc){
         //TODO: get list of documents from db
         if (this.documents.contains(doc)){
-            //System.out.println("user " + this.name + " already have this document");
+            System.out.println("user " + this.name + " already have this document");
             return;
         }
         if (doc.copiesNumber() > 0) {
             //System.out.println("patron " + this.name + " checked " + doc.getTitle());
+            if (doc.getKeys().contains("reference")){
+                System.out.println("Impossible to checkout. The document " + doc.getTitle() + " is reference book");
+                return;
+            }
             documents.add(doc);
             doc.setCopies(doc.copiesNumber() - 1);
             if (!doc.getClass().toString().equals("class Documents.Book")){
