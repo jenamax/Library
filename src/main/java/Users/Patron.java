@@ -51,10 +51,11 @@ public class Patron extends User {
                     doc.daysRemained = 21;
                 }
             }
+            System.out.println("The book " + doc.getTitle() + " are checked out by " + name);
         }
 
         else{
-            System.out.println("No available documents");
+            System.out.println("No available documents for " + name);
         }
 
         //TODO: rewrite list of documents
