@@ -4,7 +4,7 @@
 
 ------------------------------
 
-### **How to install this product on your PC** 
+### **How to install our project on your PC** 
 
 Install: Java 1.8, 
          MySQL Server(if no internet connection)
@@ -18,7 +18,7 @@ Install: Java 1.8,
     
  #### To start WEB-application compile src/main/java/Main/main.class and at Web-browser put in address line "localhost:8080"
  
- ### For chech TEST CASES:
+ ### For check TEST CASES:
  
  1. Go to src/main/java/TestCases/
  2. And compile all of the classes inside this package
